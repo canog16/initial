@@ -1,0 +1,305 @@
+
+html{
+	background-image: url(images/grey1.jpg);
+	background-size: cover;
+	scroll-behavior: smooth;
+}
+body {
+	width: 100%;
+	margin: auto;
+	
+}
+
+header {
+	padding: 5%;
+	font-size: 150%;
+	font-style: italic;
+
+}
+
+.title h1 {
+	font-weight: bold;
+	font-style: italic;
+
+}
+
+.titles {
+	font-style: italic;
+	font-family: impact;
+}
+
+.nav-buttons {
+	border: double 10px black;
+	width: 100%;
+	font-family: impact;	
+}
+
+.nav-buttons ul{
+	display: flex;
+	justify-content: space-around;
+}
+
+.nav-buttons a{
+	text-decoration: none;
+}
+
+.toggler {
+	position: absolute;
+	top: .75rem;
+	right: 1rem;
+	display: none;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 30px;
+	height: 21px;
+}
+
+.toggler .touch {
+	height: 3px;
+	width: 100%;
+	background-color: black;
+	border-radius: 10px;
+
+}
+
+#buttons1 {
+	border: 5px solid;
+	background-color: gray;
+	width: 150px;
+	font-size: 150%;
+	font-family: impact;
+	font-style: italic;
+}
+
+.skill {
+	font-style: italic;
+}
+
+.skill li{
+	font-family: impact;
+}
+
+
+.content1 {
+	text-align: center;
+}
+
+.content2 {
+	text-align: center;
+	margin: auto;
+	width: 90%;
+	padding-top: 110px ;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.paragraph1{
+flex: 2;
+}
+.paragraph2{
+flex: 2;
+padding: 25px;
+}
+.paragraph3{
+flex: 2;
+}
+content2 img {
+	
+}
+
+.content2 p {
+	font-size: 140%;
+	font-family: impact;
+	font-style: italic;
+	line-height: 175%;
+
+	
+}
+
+.nextpara {
+	text-align: center;
+	margin: auto;
+	padding: 60px;
+	font-size: 140%;
+	font-family: impact;
+	font-style: italic;
+	line-height: 175%;
+}
+
+.content3 {
+	margin: auto;
+	width: 65%;
+}
+
+.content4 {
+	text-align: center;
+	margin: auto;
+	font-size: 150%;
+	font-weight: bold;
+}
+
+li {
+	list-style-type: none;
+}
+
+.content5 {
+	margin-top: 10%;
+	text-align: center;
+}
+
+.link {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 30% 30% 30%;
+	grid-column-gap: 20px;
+	justify-content: center;
+	text-align: center;
+	margin: auto;
+	padding-bottom: 150px;
+}
+
+.contact {
+	margin: auto;
+	padding-top: 100px;
+	text-align: center;
+	padding-bottom: 40px;
+}
+.content6 {
+	display: grid;
+}
+
+#numcents {
+	font-size: 200%;
+	padding-bottom: 20px;
+}
+
+#calculate {
+	font-size: 190%;
+	border: 5px solid ;
+	font-style: italic;
+	margin: auto;
+	background-color: gray;
+}
+
+#cents {
+	margin-bottom: 20px;
+}
+
+.cents {
+	
+	text-align: center;
+	margin: auto;
+	font-family: impact;
+	font-size: 110%;
+
+}
+.content7 {
+
+}
+
+#note {
+	font-size: 200%;
+}
+
+aside {
+	margin: 10%;
+	font-style: italic;
+	font-size: 150%;
+}
+
+figcaption {
+opacity: 30%;
+font-style: italic;
+font-family: impact;
+font-size: 135%;
+color: black;
+}
+
+
+#bmw {
+	width: 50%;
+}
+
+footer {
+	text-align: center;
+	margin: auto;
+	padding: 15px;
+	background-color: lightgray;
+}
+
+::-webkit-scrollbar {
+	width: 15px;
+}
+::-webkit-scrollbar-track {
+	background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: black;
+	border: double #696969 3px;
+
+}
+
+/* Handle on hover*/
+::-webkit-scrollbar-thumb:hover {
+	background: #696969;
+	border: double black 4px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+	.Lmenu {
+		flex-direction: column;
+	
+
+	}
+
+	.toggler {
+		display: flex;
+
+	}
+
+
+	.nav-buttons {
+		display: none;
+		width: 100%;
+	}
+
+	.nav-buttons ul{
+		flex-direction: column;
+		width: 100%;
+		font-size: 150%;
+	}
+
+	.nav-buttons ul li {
+		text-align: center;
+	}
+
+	.nav-buttons ul li a {
+		padding: .5rem 1rem;
+
+	}
+
+	.nav-buttons.active {
+		display: flex;
+	}
+	
+
+	.content2 {
+		display: grid;
+		justify-content: center;
+		grid-template-columns: 1fr;
+	}
+
+	.link {
+		display: grid;
+		justify-content: center;
+		grid-template-columns: 1fr;
+	}
+
+
+}
