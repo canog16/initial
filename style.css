@@ -156,6 +156,20 @@ li {
 	margin: 0 auto;
 }
 
+#Z06 {
+   display: block;
+   height: 50%;
+   width: 90%;
+}
+
+#honda {
+display: block;
+height: 50%;
+margin-left: 25%;
+
+}
+
+
 .content5 {
 	margin-top: 10%;
 	text-align: center;
